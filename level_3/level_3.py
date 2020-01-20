@@ -17,7 +17,7 @@ pytesseract.pytesseract.tesseract_cmd = r'C:\Program Files\Tesseract-OCR\tessera
 custom_config = r'-l eng --psm 4'
 my_id = "1166"
 
-for i in range(40):
+for i in range(1024):
     driver.get(url)
     driver.execute_script("window.scrollTo(0, 135)")
     driver.save_screenshot("screenshot.png")
